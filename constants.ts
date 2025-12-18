@@ -15,8 +15,8 @@ export const PORTFOLIO_DATA = {
 
 export const SKILLS: Skill[] = [
   // Languages
-  { name: "TypeScript", level: 95, category: "Languages", icon: "devicon-typescript-plain colored" },
-  { name: "Python", level: 90, category: "Languages", icon: "devicon-python-plain colored" },
+  { name: "TypeScript", level: 95, category: "Languages", icon: "icons/typescript-plain.svg" },
+  { name: "Python", level: 90, category: "Languages", icon: "custom-python-plain colored" },
   { name: "Java", level: 85, category: "Languages", icon: "devicon-java-plain colored" },
   { name: "C#", level: 80, category: "Languages", icon: "devicon-csharp-plain colored" },
   { name: "JavaScript", level: 95, category: "Languages", icon: "devicon-javascript-plain colored" },
@@ -46,9 +46,9 @@ export const SKILLS: Skill[] = [
   { name: "GitLab", level: 85, category: "Cloud & Platforms", icon: "devicon-gitlab-plain colored" },
 
   // AI/ML
-  { name: "TensorFlow", level: 80, category: "AI/ML", icon: "devicon-tensorflow-original colored" },
+  { name: "TensorFlow", level: 80, category: "AI/ML", icon: "custom-tensorflow-original colored" },
   { name: "Gemini API", level: 90, category: "AI/ML", icon: "custom-gemini" },
-  { name: "PyTorch", level: 85, category: "AI/ML", icon: "devicon-pytorch-original colored" },
+  { name: "PyTorch", level: 85, category: "AI/ML", icon: "custom-pytorch-original colored" },
   { name: "Hugging Face", level: 80, category: "AI/ML", icon: "custom-huggingface" },
 
   // Tools
@@ -108,7 +108,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "DeepLearning.AI",
     date: "Oct 2024",
     category: "Generative AI",
-    imageUrl: "/images/certificates/gen-ai-llm.png",
+    imageUrl: "/images/gen-ai-llm.png",
    
   },
   {
@@ -117,7 +117,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "Google Cloud",
     date: "Oct 2024",
     category: "Generative AI",
-    imageUrl: "/images/certificates/intro-gen-ai.png",
+    imageUrl: "/images/intro-gen-ai.png",
    
   },
 
@@ -128,7 +128,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "Arizona State University",
     date: "Oct 2024",
     category: "Foundations",
-    imageUrl: "/images/certificates/ai-prompt-eng.png"
+    imageUrl: "/images/ai-prompt-eng.png"
   },
   {
     id: "intro-ai-ibm",
@@ -136,7 +136,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "IBM",
     date: "Oct 2024",
     category: "Foundations",
-    imageUrl: "/images/certificates/intro-ai-ibm.png"
+    imageUrl: "/images/intro-ai-ibm.png"
   },
   {
     id: "ai-essentials-intel",
@@ -144,7 +144,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "Intel",
     date: "Oct 2024",
     category: "Foundations",
-    imageUrl: "/images/certificates/ai-essentials-intel.png"
+    imageUrl: "/images/ai-essentials-intel.png"
   },
   {
     id: "ai-azure",
@@ -152,7 +152,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "Microsoft",
     date: "Oct 2024",
     category: "Foundations",
-    imageUrl: "/images/certificates/ai-azure.png"
+    imageUrl: "/images/ai-azure.png"
   },
 
   // Group 3: Responsible & Ethical AI
@@ -162,7 +162,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "Johns Hopkins University",
     date: "Oct 2024",
     category: "Ethics",
-    imageUrl: "/images/certificates/trustworthy-ai.png"
+    imageUrl: "/images/trustworthy-ai.png"
   },
 
   // Group 4: Development & Implementation
@@ -172,7 +172,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "IBM",
     date: "Oct 2024",
     category: "Development",
-    imageUrl: "/images/certificates/ai-chatbots.png"
+    imageUrl: "/images/ai-chatbots.png"
   },
   {
     id: "python-dev-ai",
@@ -180,7 +180,7 @@ export const CERTIFICATIONS: Certificate[] = [
     issuer: "IBM",
     date: "Oct 2024",
     category: "Development",
-    imageUrl: "/images/certificates/python-dev-ai.png"
+    imageUrl: "/images/python-dev-ai.png"
   }
 ];
 
